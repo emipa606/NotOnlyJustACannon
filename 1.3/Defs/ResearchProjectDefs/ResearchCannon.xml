@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- <ResearchTabDef> -->
+  <!-- <defName>BA_GunSmithing</defName> -->
+  <!-- <label>Black Armory</label> -->
+  <!-- </ResearchTabDef> -->
+  <ResearchProjectDef>
+    <defName>CannonMaking</defName>
+    <label>Cannon</label>
+    <description>Knowledge to using a chemical Way to throw a big metal ball</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.60</researchViewY>
+    <!-- <tab>BA_GunSmithing</tab> -->
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Fortification</defName>
+    <label>Fortification</label>
+    <description>Fortification our gun to make it more durable,but by doing that we are unable to move them like before.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>CannonMaking</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <!-- <tab>BA_GunSmithing</tab> -->
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AntiDragonWeaponry</defName>
+    <label>Dragonator</label>
+    <description>It is the first time we are able to defeat dragons amd those mega-sized creatures with less casualties than before.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Fortification</li>
+    </prerequisites>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <!-- <tab>BA_GunSmithing</tab> -->
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>EndLoaded</defName>
+    <label>End-Loaded</label>
+    <description>Load cannon shell with a more efficient way.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>CannonMaking</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>0.60</researchViewY>
+    <!-- <tab>BA_GunSmithing</tab> -->
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ArcedBallistic</defName>
+    <label>Arced-ballistic</label>
+    <description>cannon can not only shoot with a straight ballistic.... right?</description>
+    <baseCost>750</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>CannonMaking</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.20</researchViewY>
+    <!-- <tab>BA_GunSmithing</tab> -->
+  </ResearchProjectDef>
+</Defs>

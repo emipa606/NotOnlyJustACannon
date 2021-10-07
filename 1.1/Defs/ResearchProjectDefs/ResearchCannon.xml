@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+-<ResearchProjectDef><defName>CannonMaking</defName><label>Cannon</label><description>Knowledge to using a chemical Way to throw a big metal ball</description><baseCost>300</baseCost><techLevel>Medieval</techLevel><prerequisites><li>Smithing</li></prerequisites><researchViewX>2</researchViewX><researchViewY>4</researchViewY></ResearchProjectDef>
+
+-<ResearchProjectDef><defName>Fortification</defName><label>Fortification</label><description>Fortification our gun to make it more durable,but by doing that we are unable to move them like before.</description><baseCost>500</baseCost><techLevel>Medieval</techLevel><prerequisites><li>CannonMaking</li></prerequisites><researchViewX>5</researchViewX><researchViewY>4</researchViewY></ResearchProjectDef>
+
+-<ResearchProjectDef><defName>AntiDragonWeaponry</defName><label>Dragonator</label><description>It is the first time we are able to defeat dragons amd those mega-sized creatures with less casualties than before.</description><baseCost>2000</baseCost><techLevel>Medieval</techLevel><prerequisites><li>Fortification</li></prerequisites><researchViewX>5</researchViewX><researchViewY>5</researchViewY></ResearchProjectDef>
+
+-<ResearchProjectDef><defName>HeavyMusket</defName><label>Wall Gun</label><description>Those normal musket are unable to penetrate mechanoid,so we need a bigger one.</description><baseCost>750</baseCost><techLevel>Medieval</techLevel><prerequisites><li>CannonMaking</li></prerequisites><researchViewX>4</researchViewX><researchViewY>3</researchViewY></ResearchProjectDef>
+
+
+-<ResearchProjectDef><defName>EndLoaded</defName><label>End-Loaded</label><description>Load cannon shell with a more efficient way.</description><baseCost>750</baseCost><techLevel>Medieval</techLevel><prerequisites><li>CannonMaking</li></prerequisites><researchViewX>4</researchViewX><researchViewY>4</researchViewY></ResearchProjectDef>
+
+-<ResearchProjectDef><defName>ArcedBallistic</defName><label>Arced-ballistic</label><description>cannon can not only shoot with a straight ballistic.... right?</description><baseCost>750</baseCost><techLevel>Medieval</techLevel><prerequisites><li>CannonMaking</li></prerequisites><researchViewX>4</researchViewX><researchViewY>5</researchViewY></ResearchProjectDef></Defs>

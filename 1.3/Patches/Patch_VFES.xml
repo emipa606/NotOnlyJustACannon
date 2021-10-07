@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!-- Mod Support for VWE -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Security</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[@Name="BaseCannonBuilding"]/comps</xpath>
+          <value>
+            <li Class="VFESecurity.CompProperties_LongRangeArtillery">
+              <worldTileRange>7</worldTileRange>
+              <maxForcedMissRadiusFactor>0.75</maxForcedMissRadiusFactor>
+              <gizmoIconTexPath>Things/Building/Cannon_Top</gizmoIconTexPath>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Mortar turret -->
+  <Turret_Cannon.label>Cannon</Turret_Cannon.label>
+  <Turret_Cannon.description>A manned cannon which might take some time to reload.</Turret_Cannon.description>
+  <Turret_Cannon_Blueprint.label>Cannon (blueprint)</Turret_Cannon_Blueprint.label>
+  <Turret_Cannon_Blueprint_Install.label>Cannon (blueprint)</Turret_Cannon_Blueprint_Install.label>
+  <Turret_Cannon_Frame.label>Cannon (building)</Turret_Cannon_Frame.label>
+  <Turret_Cannon_Frame.description>A manned cannon which might take some time to reload.</Turret_Cannon_Frame.description>
+  <Weapon_Cannon.label>Cannon</Weapon_Cannon.label>
+  <Weapon_Cannon.description>BlackPowder Cannon.Inaccurate but long-ranged.</Weapon_Cannon.description>
+</LanguageData>

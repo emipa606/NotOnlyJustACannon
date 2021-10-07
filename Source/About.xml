@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Not Only just a cannon</name>
+  <author>AobaKuma</author>
+  <url>
+  </url>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <packageId>Aoba.Cannon</packageId>
+  <description>Just add a lot of cannon and Mortar for medieval tech</description>
+</ModMetaData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Mortar turret -->
+  <Turret_Cannon.label>加农炮</Turret_Cannon.label>
+  <Turret_Cannon.description>一座需要殖民者操作的固定武器</Turret_Cannon.description>
+  <Turret_Cannon_Blueprint.label>加农炮 (蓝图)</Turret_Cannon_Blueprint.label>
+  <Turret_Cannon_Blueprint_Install.label>这里等下就会有座大炮</Turret_Cannon_Blueprint_Install.label>
+  <Turret_Cannon_Frame.label>加农炮 (建造中)</Turret_Cannon_Frame.label>
+  <Turret_Cannon_Frame.description>这里正在变出一座大炮</Turret_Cannon_Frame.description>
+  <Weapon_Cannon.label>加农炮</Weapon_Cannon.label>
+  <Weapon_Cannon.description>黑火藥武器，雖然精度不算高但是射程很長</Weapon_Cannon.description>
+</LanguageData>

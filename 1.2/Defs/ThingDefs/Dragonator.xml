@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--================龍擊槍(WIP) ================-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>Turret_Dragonator</defName>
+    <label>Dragonator</label>
+    <description>A heavy weapon that have ability to defeat a dragon.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Dragonator_Base </texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(7)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+      <shadowData>
+        <offset>(-0.13,-0.87,-0.1)</offset>
+        <volume>(0.5,0.4,1.05)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Things/Building/Dragonator</uiIconPath>
+    <uiIconScale>1.5</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>true</rotatable>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <statBases>
+      <!--================血量與重量工作量 ================-->
+      <MaxHitPoints>12000</MaxHitPoints>
+      <Flammability>0.0</Flammability>
+      <WorkToBuild>12000</WorkToBuild>
+      <Mass>4000</Mass>
+      <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots until Spike change</fuelLabel>
+        <fuelGizmoLabel>Spike durability</fuelGizmoLabel>
+        <outOfFuelMessage>Cannot launch: Needs new Spike</outOfFuelMessage>
+        <fuelFilter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>1</fuelCapacity>
+        <!-- 30 bursts -->
+        <fuelMultiplier>0.05</fuelMultiplier>
+        <!-- 1.333 steel per burst, 80 per full rearm -->
+        <initialFuelPercent>0</initialFuelPercent>
+        <autoRefuelPercent>0.5</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.95</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <costList>
+      <Steel>1200</Steel>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <building>
+      <combatPower>45</combatPower>
+      <!-- same as a scavenger -->
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Weapon_Dragonator</turretGunDef>
+      <turretBurstCooldownTime>300.8</turretBurstCooldownTime>
+      <turretTopDrawSize>8</turretTopDrawSize>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>AntiDragonWeaponry</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!--================龍擊槍 ================-->
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Weapon_Dragonator</defName>
+    <label>Dragonator</label>
+    <description>A heavy weapon that have ability to defeat a dragon.</description>
+    <graphicData>
+      <texPath>Things/Building/Dragonator_Top</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>1.00</AccuracyTouch>
+      <AccuracyShort>1.00</AccuracyShort>
+      <AccuracyMedium>1.00</AccuracyMedium>
+      <AccuracyLong>1.00</AccuracyLong>
+      <RangedWeapon_Cooldown>300.8</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>4000</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>Bullet_Dragonator</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>4</range>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <burstShotCount>50</burstShotCount>
+        <soundCast>GunShotA</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>2</muzzleFlashScale>
+        <consumeFuelPerShot>0.02</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- 龍擊槍彈 -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Dragonator</defName>
+    <label>Dragonator</label>
+    <graphicData>
+      <texPath>Things/Projectile/Dragonator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <stoppingPower>5</stoppingPower>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+</Defs>

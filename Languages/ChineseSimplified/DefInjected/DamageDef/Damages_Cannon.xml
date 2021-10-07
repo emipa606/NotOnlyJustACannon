@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Temporary hack; ranged weapons need to use the old pre-flavorful-combat system to avoid a rebalance cascade. -->
+  <CannonShell.label>炮弹</CannonShell.label>
+  <CannonShell.deathMessage>{0} 被炮弹直击</CannonShell.deathMessage>
+</LanguageData>

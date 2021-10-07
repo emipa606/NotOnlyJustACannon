@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>CannonShells</defName>
+    <label>Cannon shells</label>
+    <parent>Manufactured</parent>
+    <iconPath>Things/Projectile/Projectile_Solid</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>ChamberShells</defName>
+    <label>Chamber shells</label>
+    <parent>Manufactured</parent>
+    <iconPath>Things/Projectile/Chamber_Solid</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>EarlyMortarShells</defName>
+    <label>Early Mortar shells</label>
+    <parent>Manufactured</parent>
+    <iconPath>Things/Projectile/Projectile_SGunstone</iconPath>
+  </ThingCategoryDef>
+</Defs>

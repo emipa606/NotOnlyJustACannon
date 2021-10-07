@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 实心弹 -->
+  <CannonBall_Solidshot.label>实心弹</CannonBall_Solidshot.label>
+  <CannonBall_Solidshot.description>实心铁球</CannonBall_Solidshot.description>
+  <Bullet_CannonBall_Solidshot.label>炮弹</Bullet_CannonBall_Solidshot.label>
+  <!-- 开花弹 -->
+  <CannonBall_Explosiveshot.label>高爆弹</CannonBall_Explosiveshot.label>
+  <CannonBall_Explosiveshot.description>需要发射前点燃引信的铁球</CannonBall_Explosiveshot.description>
+  <Bullet_CannonBall_Explosiveshot.label>炮弹</Bullet_CannonBall_Explosiveshot.label>
+  <!-- 燃烧弹 -->
+  <CannonBall_Incendiary.label>燃烧弹</CannonBall_Incendiary.label>
+  <CannonBall_Incendiary.description>落地后会撒出一堆燃油的铁球</CannonBall_Incendiary.description>
+  <Bullet_CannonBall_Incendiary.label>砲彈</Bullet_CannonBall_Incendiary.label>
+</LanguageData>

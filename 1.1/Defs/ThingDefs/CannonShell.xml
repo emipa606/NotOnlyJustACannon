@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- 實心彈 -->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>CannonBall_Solidshot</defName>
+    <label>Cannon Solid Round</label>
+    <description>A solid Metal Round</description>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>200</workAmount>
+      <targetCountAdjustment>5</targetCountAdjustment>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>CannonShells</li>
+    </thingCategories>
+    <tradeTags>
+      <li>MortarShell</li>
+    </tradeTags>
+    <graphicData>
+      <texPath>Things/Item/CannonBall_Solid</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.25</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.05</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.4</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_CannonBall_Solidshot</projectileWhenLoaded>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_CannonBall_Solidshot</defName>
+    <label>CannonBall</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Solid</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>SolidShell</damageDef>
+      <speed>80</speed>
+      <explosionRadius>1.0</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+  <!-- 開花彈 -->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>CannonBall_Explosiveshot</defName>
+    <label>Cannon Explosive Round</label>
+    <description>An Explosive Round</description>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>200</workAmount>
+      <targetCountAdjustment>5</targetCountAdjustment>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>CannonShells</li>
+    </thingCategories>
+    <tradeTags>
+      <li>MortarShell</li>
+    </tradeTags>
+    <graphicData>
+      <texPath>Things/Item/CannonBall_Explosive</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.25</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.05</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.4</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_CannonBall_Explosiveshot</projectileWhenLoaded>
+    <costList>
+      <Steel>10</Steel>
+      <Chemfuel>5</Chemfuel>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_CannonBall_Explosiveshot</defName>
+    <label>CannonBall</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Explosive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <speed>80</speed>
+      <explosionRadius>2.0</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+  <!-- 燃燒彈 -->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>CannonBall_Incendiary</defName>
+    <label>Cannon Incendiary Round</label>
+    <description>Cannon Round with Fuek</description>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>200</workAmount>
+      <targetCountAdjustment>5</targetCountAdjustment>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>CannonShells</li>
+    </thingCategories>
+    <tradeTags>
+      <li>MortarShell</li>
+    </tradeTags>
+    <graphicData>
+      <texPath>Things/Item/CannonBall_Incendiary</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.25</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.05</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.4</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_CannonBall_Incendiary</projectileWhenLoaded>
+    <costList>
+      <Steel>5</Steel>
+      <Chemfuel>7</Chemfuel>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_CannonBall_Incendiary</defName>
+    <label>CannonBall</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Incendiary</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>80</speed>
+      <damageDef>Flame</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionRadius>2.1</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.75</preExplosionSpawnChance>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+  <!-- Chamber Shell -->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>Chamber_Solidshot</defName>
+    <label>Chamber Solid Round</label>
+    <description>A solid metal round loaded in a mug-shaped device</description>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>250</workAmount>
+      <targetCountAdjustment>5</targetCountAdjustment>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>ChamberShells</li>
+    </thingCategories>
+    <tradeTags>
+      <li>MortarShell</li>
+    </tradeTags>
+    <graphicData>
+      <texPath>Things/Item/Chamber_Solid</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.25</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.05</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.4</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_CannonBall_Solidshot</projectileWhenLoaded>
+    <costList>
+      <Steel>13</Steel>
+    </costList>
+  </ThingDef>
+  <!-- 開花彈 -->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>Chamber_Explosiveshot</defName>
+    <label>Chamber Explosive Round</label>
+    <description>An Explosive Chamber Round</description>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>250</workAmount>
+      <targetCountAdjustment>5</targetCountAdjustment>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>ChamberShells</li>
+    </thingCategories>
+    <tradeTags>
+      <li>MortarShell</li>
+    </tradeTags>
+    <graphicData>
+      <texPath>Things/Item/Chamber_Explosive</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.25</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.05</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.4</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_CannonBall_Explosiveshot</projectileWhenLoaded>
+    <costList>
+      <Steel>13</Steel>
+      <Chemfuel>5</Chemfuel>
+    </costList>
+  </ThingDef>
+  <!-- 燃燒彈 -->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>Chamber_Incendiary</defName>
+    <label>Chamber Incendiary Round</label>
+    <description>Cannon Round with Fuel</description>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>250</workAmount>
+      <targetCountAdjustment>5</targetCountAdjustment>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>ChamberShells</li>
+    </thingCategories>
+    <tradeTags>
+      <li>MortarShell</li>
+    </tradeTags>
+    <graphicData>
+      <texPath>Things/Item/Chamber_Incendiary</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.25</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.05</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.4</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_CannonBall_Incendiary</projectileWhenLoaded>
+    <costList>
+      <Steel>8</Steel>
+      <Chemfuel>7</Chemfuel>
+    </costList>
+  </ThingDef>
+  <!-- 早期迫擊砲 -->
+  <!-- 砲石 -->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>GunStone</defName>
+    <label>Heavy Gunstone</label>
+    <description>A round shot made from stone</description>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>180</workAmount>
+      <targetCountAdjustment>5</targetCountAdjustment>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>EarlyMortarShells</li>
+    </thingCategories>
+    <tradeTags>
+      <li>MortarShell</li>
+    </tradeTags>
+    <graphicData>
+      <texPath>Things/Item/Gunstone</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <projectileWhenLoaded>Bullet_GunStone</projectileWhenLoaded>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_GunStone</defName>
+    <label>GunStone</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Gunstone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>CannonShell</damageDef>
+      <speed>20</speed>
+      <explosionRadius>3.0</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+  <!-- 小型砲石 -->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>SGunStone</defName>
+    <label>Gunstone</label>
+    <description>A round shot made from stone</description>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>180</workAmount>
+      <targetCountAdjustment>5</targetCountAdjustment>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>EarlyMortarShells</li>
+    </thingCategories>
+    <tradeTags>
+      <li>MortarShell</li>
+    </tradeTags>
+    <graphicData>
+      <texPath>Things/Item/SGunstone</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <projectileWhenLoaded>Bullet_Gunstone_Small</projectileWhenLoaded>
+    <costList>
+      <Steel>5</Steel>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Gunstone_Small</defName>
+    <label>Gunstone</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_SGunstone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>CannonShell</damageDef>
+      <speed>25</speed>
+      <explosionRadius>0.5</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+  <!-- 實心彈 -->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>MortarShell_Solidshot</defName>
+    <label>Mortar Solid Round</label>
+    <description>A solid Metal Round</description>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>200</workAmount>
+      <targetCountAdjustment>5</targetCountAdjustment>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>EarlyMortarShells</li>
+    </thingCategories>
+    <tradeTags>
+      <li>MortarShell</li>
+    </tradeTags>
+    <graphicData>
+      <texPath>Things/Item/CannonBall_Solid</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.25</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.05</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.4</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_MortarShell_Solidshot</projectileWhenLoaded>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MortarShell_Solidshot</defName>
+    <label>Mortar Round</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Solid</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>SolidShell</damageDef>
+      <speed>25</speed>
+      <explosionRadius>1.0</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+  <!-- 開花彈 -->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>MortarShell_Explosiveshot</defName>
+    <label>Mortar Explosive Round</label>
+    <description>An Explosive Round</description>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>200</workAmount>
+      <targetCountAdjustment>5</targetCountAdjustment>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>EarlyMortarShells</li>
+    </thingCategories>
+    <tradeTags>
+      <li>MortarShell</li>
+    </tradeTags>
+    <graphicData>
+      <texPath>Things/Item/CannonBall_Explosive</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.25</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.05</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.4</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_MortarShell_Explosiveshot</projectileWhenLoaded>
+    <costList>
+      <Steel>10</Steel>
+      <Chemfuel>5</Chemfuel>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MortarShell_Explosiveshot</defName>
+    <label>Mortar Round</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Explosive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <speed>25</speed>
+      <explosionRadius>2.0</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+  <!-- 燃燒彈 -->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>MortarShell_Incendiary</defName>
+    <label>Mortar Incendiary Round</label>
+    <description>Mortar Round with Fuel</description>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>200</workAmount>
+      <targetCountAdjustment>5</targetCountAdjustment>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>EarlyMortarShells</li>
+    </thingCategories>
+    <tradeTags>
+      <li>MortarShell</li>
+    </tradeTags>
+    <graphicData>
+      <texPath>Things/Item/CannonBall_Incendiary</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.25</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.05</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.4</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_MortarShell_Incendiary</projectileWhenLoaded>
+    <costList>
+      <Steel>5</Steel>
+      <Chemfuel>7</Chemfuel>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MortarShell_Incendiary</defName>
+    <label>Mortar Round</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Incendiary</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>25</speed>
+      <damageDef>Flame</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionRadius>2.1</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.75</preExplosionSpawnChance>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+</Defs>

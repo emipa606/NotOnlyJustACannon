@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 實心彈 -->
+  <CannonBall_Solidshot.label>Cannon Ball</CannonBall_Solidshot.label>
+  <CannonBall_Solidshot.description>A solid Metal Round</CannonBall_Solidshot.description>
+  <Bullet_CannonBall_Solidshot.label>CannonBall</Bullet_CannonBall_Solidshot.label>
+  <!-- 開花彈 -->
+  <CannonBall_Explosiveshot.label>Explosive Round</CannonBall_Explosiveshot.label>
+  <CannonBall_Explosiveshot.description>An Explosive Round</CannonBall_Explosiveshot.description>
+  <Bullet_CannonBall_Explosiveshot.label>CannonBall</Bullet_CannonBall_Explosiveshot.label>
+  <!-- 燃燒彈 -->
+  <CannonBall_Incendiary.label>Incendiary Round</CannonBall_Incendiary.label>
+  <CannonBall_Incendiary.description>Cannon Round with Fuek</CannonBall_Incendiary.description>
+  <Bullet_CannonBall_Incendiary.label>CannonBall</Bullet_CannonBall_Incendiary.label>
+</LanguageData>
