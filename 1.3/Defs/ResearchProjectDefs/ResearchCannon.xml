@@ -14,7 +14,7 @@
       <li>Smithing</li>
     </prerequisites>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>0.60</researchViewY>
+    <researchViewY>4.00</researchViewY>
     <!-- <tab>BA_GunSmithing</tab> -->
   </ResearchProjectDef>
   <ResearchProjectDef>
@@ -27,7 +27,7 @@
       <li>CannonMaking</li>
     </prerequisites>
     <researchViewX>3.00</researchViewX>
-    <researchViewY>0.00</researchViewY>
+    <researchViewY>3.80</researchViewY>
     <!-- <tab>BA_GunSmithing</tab> -->
   </ResearchProjectDef>
   <ResearchProjectDef>
@@ -40,7 +40,7 @@
       <li>Fortification</li>
     </prerequisites>
     <researchViewX>4.00</researchViewX>
-    <researchViewY>0.00</researchViewY>
+    <researchViewY>3.80</researchViewY>
     <!-- <tab>BA_GunSmithing</tab> -->
   </ResearchProjectDef>
   <ResearchProjectDef>
@@ -53,7 +53,7 @@
       <li>CannonMaking</li>
     </prerequisites>
     <researchViewX>3.00</researchViewX>
-    <researchViewY>0.60</researchViewY>
+    <researchViewY>3.25</researchViewY>
     <!-- <tab>BA_GunSmithing</tab> -->
   </ResearchProjectDef>
   <ResearchProjectDef>
@@ -66,7 +66,7 @@
       <li>CannonMaking</li>
     </prerequisites>
     <researchViewX>3.00</researchViewX>
-    <researchViewY>1.20</researchViewY>
+    <researchViewY>4.35</researchViewY>
     <!-- <tab>BA_GunSmithing</tab> -->
   </ResearchProjectDef>
 </Defs>

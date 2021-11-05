@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>e4519015-9896-4e97-ac24-9f5714cb2529</ID>
   <ModName>Not Only just a cannon (Continued)</ModName>
-  <Version>1.0.0.0</Version>
+  <Version>1.0.1.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,7 +12,3 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
-
