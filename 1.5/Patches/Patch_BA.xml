@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!-- Mod Support for VWE -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>The Black Armory</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ResearchProjectDef[defName="CannonMaking"]/prerequisites</xpath>
+          <value>
+            <prerequisites>
+              <li>BA_Blackpowder</li>
+            </prerequisites>
+          </value>
+        </li>
+      </operations>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ResearchProjectDef[defName="BA_GunSmithing"]/label</xpath>
+          <value>
+            <label>Artillery forging</label>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+</Patch>
