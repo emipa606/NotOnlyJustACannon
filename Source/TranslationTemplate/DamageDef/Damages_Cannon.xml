@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: CannonShell -->
+  <CannonShell.label>CannonShell</CannonShell.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <CannonShell.deathMessage>{0} has died in an explosion.</CannonShell.deathMessage>
+  <!-- EN: Dragonator -->
+  <Damage_Dragonator.label>Dragonator</Damage_Dragonator.label>
+  <!-- EN: {0} has been stabbed into pieces -->
+  <Damage_Dragonator.deathMessage>{0} has been stabbed into pieces</Damage_Dragonator.deathMessage>
+  <!-- EN: SolidShell -->
+  <SolidShell.label>SolidShell</SolidShell.label>
+  <!-- EN: {0} has spread into pieces -->
+  <SolidShell.deathMessage>{0} has spread into pieces</SolidShell.deathMessage>
+</LanguageData>

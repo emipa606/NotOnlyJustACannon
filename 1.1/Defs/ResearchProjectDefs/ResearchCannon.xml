@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 -<ResearchProjectDef><defName>CannonMaking</defName><label>Cannon</label><description>Knowledge to using a chemical Way to throw a big metal ball</description><baseCost>300</baseCost><techLevel>Medieval</techLevel><prerequisites><li>Smithing</li></prerequisites><researchViewX>2</researchViewX><researchViewY>4</researchViewY></ResearchProjectDef>

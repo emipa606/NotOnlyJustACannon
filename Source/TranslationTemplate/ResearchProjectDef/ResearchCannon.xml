@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Dragonator -->
+  <AntiDragonWeaponry.label>Dragonator</AntiDragonWeaponry.label>
+  <!-- EN: It is the first time we are able to defeat dragons amd those mega-sized creatures with less casualties than before. -->
+  <AntiDragonWeaponry.description>It is the first time we are able to defeat dragons amd those mega-sized creatures with less casualties than before.</AntiDragonWeaponry.description>
+  <!-- EN: Arced-ballistic -->
+  <ArcedBallistic.label>Arced-ballistic</ArcedBallistic.label>
+  <!-- EN: cannon can not only shoot with a straight ballistic.... right? -->
+  <ArcedBallistic.description>cannon can not only shoot with a straight ballistic.... right?</ArcedBallistic.description>
+  <!-- EN: Cannon -->
+  <CannonMaking.label>Cannon</CannonMaking.label>
+  <!-- EN: Knowledge to using a chemical Way to throw a big metal ball -->
+  <CannonMaking.description>Knowledge to using a chemical Way to throw a big metal ball</CannonMaking.description>
+  <!-- EN: End-Loaded -->
+  <EndLoaded.label>End-Loaded</EndLoaded.label>
+  <!-- EN: Load cannon shell with a more efficient way. -->
+  <EndLoaded.description>Load cannon shell with a more efficient way.</EndLoaded.description>
+  <!-- EN: Fortification -->
+  <Fortification.label>Fortification</Fortification.label>
+  <!-- EN: Fortification our gun to make it more durable,but by doing that we are unable to move them like before. -->
+  <Fortification.description>Fortification our gun to make it more durable,but by doing that we are unable to move them like before.</Fortification.description>
+</LanguageData>

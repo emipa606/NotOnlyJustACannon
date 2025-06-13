@@ -1,0 +1,81 @@
+ManifestFileVersion: 0
+CRC: 3596062114
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e0157dc8605114d806972a8145fe6396
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e0157dc8605114d806972a8145fe6396
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Chamber_Explosive/Chamber_Explosive_c.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/Forted_Base.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Projectile/Dragonator.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/PivotGun.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/WallGun_Top.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/Coehorn_UI.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/CannonBall_Incendiary/CannonBall_Incendiary_a.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/CannonBall_Explosive/CannonBall_Explosive_c.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/CannonBall_Solid/CannonBall_Solid_a.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/PivotGun_Top.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/CannonBall_Explosive/CannonBall_Explosive_b.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/CannonBall_Incendiary/CannonBall_Incendiary_b.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Dragonator/Dragonator_c.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/FortedCannon_UI.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Dragonator/Dragonator_b.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/FortedCannon_Top.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/PivotGun_UI.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/CannonBall_Solid/CannonBall_Solid_b.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/CannonBall_Grape/CannonBall_Grape_a.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/Cannon_Top.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Dragonator/Dragonator_a.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Chamber_Explosive/Chamber_Explosive_b.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Chamber_Incendiary/Chamber_Incendiary_c.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Projectile/Projectile_Gunstone.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/FortedMortar_UI.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/CannonBall_Solid/CannonBall_Solid_c.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Projectile/Projectile_Solid.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Projectile/Projectile_SGunstone.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/Dragonator_Top.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/Early_Mortar_UI.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/Early_Mortar_Top.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Chamber_Explosive/Chamber_Explosive_a.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Chamber_Solid/Chamber_Solid_b.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Gunstone/Gunstone_a.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Projectile/Projectile_Incendiary.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/FortedCannon.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Chamber_Incendiary/Chamber_Incendiary_b.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Chamber_Solid/Chamber_Solid_a.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/CannonBall_Explosive/CannonBall_Explosive_a.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Chamber_Incendiary/Chamber_Incendiary_a.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/Coehorn_Top.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/Cannon_UI.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Projectile/Projectile_Explosive.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/SGunstone/SGunstone_c.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/Dragonator.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/Dragonator_Base .png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/SwivelGun_UI.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/Air_Base.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Chamber_Solid/Chamber_Solid_c.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Projectile/Chamber_Solid.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/CannonBall_Grape/CannonBall_Grape_c.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Gunstone/Gunstone_b.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/SGunstone/SGunstone_a.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/SGunstone/SGunstone_b.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/CannonBall_Grape/CannonBall_Grape_b.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/Dragonator_UI.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/Cannon_Base.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/SwivelGun_Top.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/FortedMortar_Top.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/CannonBall_Incendiary/CannonBall_Incendiary_c.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Item/Gunstone/Gunstone_c.png
+- Assets/Data/Mlie.NotOnlyJustACannon/Textures/Things/Building/FortedMortar.png
+Dependencies: []

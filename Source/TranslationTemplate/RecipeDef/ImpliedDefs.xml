@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make Explosive Round -->
+  <Make_CannonBall_Explosiveshot.label>make Explosive Round</Make_CannonBall_Explosiveshot.label>
+  <!-- EN: Make an Explosive Round. -->
+  <Make_CannonBall_Explosiveshot.description>Make an Explosive Round.</Make_CannonBall_Explosiveshot.description>
+  <!-- EN: Making Explosive Round. -->
+  <Make_CannonBall_Explosiveshot.jobString>Making Explosive Round.</Make_CannonBall_Explosiveshot.jobString>
+  <!-- EN: make Incendiary Round -->
+  <Make_CannonBall_Incendiary.label>make Incendiary Round</Make_CannonBall_Incendiary.label>
+  <!-- EN: Make an Incendiary Round. -->
+  <Make_CannonBall_Incendiary.description>Make an Incendiary Round.</Make_CannonBall_Incendiary.description>
+  <!-- EN: Making Incendiary Round. -->
+  <Make_CannonBall_Incendiary.jobString>Making Incendiary Round.</Make_CannonBall_Incendiary.jobString>
+  <!-- EN: make Cannon Ball -->
+  <Make_CannonBall_Solidshot.label>make Cannon Ball</Make_CannonBall_Solidshot.label>
+  <!-- EN: Make a Cannon Ball. -->
+  <Make_CannonBall_Solidshot.description>Make a Cannon Ball.</Make_CannonBall_Solidshot.description>
+  <!-- EN: Making Cannon Ball. -->
+  <Make_CannonBall_Solidshot.jobString>Making Cannon Ball.</Make_CannonBall_Solidshot.jobString>
+</LanguageData>

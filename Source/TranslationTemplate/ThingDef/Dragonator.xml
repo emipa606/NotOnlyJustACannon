@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Dragonator -->
+  <Bullet_Dragonator.label>Dragonator</Bullet_Dragonator.label>
+  <!-- EN: Dragonator -->
+  <Turret_Dragonator.label>Dragonator</Turret_Dragonator.label>
+  <!-- EN: A heavy weapon that have ability to defeat a dragon. -->
+  <Turret_Dragonator.description>A heavy weapon that have ability to defeat a dragon.</Turret_Dragonator.description>
+  <!-- EN: Spike durability -->
+  <Turret_Dragonator.comps.CompRefuelable.fuelGizmoLabel>Spike durability</Turret_Dragonator.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until Spike change -->
+  <Turret_Dragonator.comps.CompRefuelable.fuelLabel>Shots until Spike change</Turret_Dragonator.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot launch: Needs new Spike -->
+  <Turret_Dragonator.comps.CompRefuelable.outOfFuelMessage>Cannot launch: Needs new Spike</Turret_Dragonator.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: Dragonator -->
+  <Weapon_Dragonator.label>Dragonator</Weapon_Dragonator.label>
+  <!-- EN: A heavy weapon that have ability to defeat a dragon. -->
+  <Weapon_Dragonator.description>A heavy weapon that have ability to defeat a dragon.</Weapon_Dragonator.description>
+  <!-- EN: Dragonator -->
+  <Weapon_Dragonator.verbs.Verb_Shoot.label>Dragonator</Weapon_Dragonator.verbs.Verb_Shoot.label>
+</LanguageData>

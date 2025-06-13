@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Fortress Cannon -->
+  <Forted_Cannon.label>Fortress Cannon</Forted_Cannon.label>
+  <!-- EN: A manned cannon which might take some time to reload. -->
+  <Forted_Cannon.description>A manned cannon which might take some time to reload.</Forted_Cannon.description>
+  <!-- EN: Swivel Gun -->
+  <Swivel_Gun.label>Swivel Gun</Swivel_Gun.label>
+  <!-- EN: An end-loaded Cannon which have a better fire rate. -->
+  <Swivel_Gun.description>An end-loaded Cannon which have a better fire rate.</Swivel_Gun.description>
+  <!-- EN: Cannon -->
+  <Turret_Cannon.label>Cannon</Turret_Cannon.label>
+  <!-- EN: A manned cannon which might take some time to reload. -->
+  <Turret_Cannon.description>A manned cannon which might take some time to reload.</Turret_Cannon.description>
+  <!-- EN: Coehorn -->
+  <Turret_Coehorn.label>Coehorn</Turret_Coehorn.label>
+  <!-- EN: A manned cannon which can throw shells over enemy's head. -->
+  <Turret_Coehorn.description>A manned cannon which can throw shells over enemy's head.</Turret_Coehorn.description>
+  <!-- EN: Mortar -->
+  <Turret_Early_Mortar.label>Mortar</Turret_Early_Mortar.label>
+  <!-- EN: A manned cannon which can throw shells over enemy's head. -->
+  <Turret_Early_Mortar.description>A manned cannon which can throw shells over enemy's head.</Turret_Early_Mortar.description>
+  <!-- EN: Fortress Mortar -->
+  <Turret_Forted_Mortar.label>Fortress Mortar</Turret_Forted_Mortar.label>
+  <!-- EN: A manned cannon which can throw shells over enemy's head. -->
+  <Turret_Forted_Mortar.description>A manned cannon which can throw shells over enemy's head.</Turret_Forted_Mortar.description>
+  <!-- EN: Pivot Gun -->
+  <Turret_PivotGun.label>Pivot Gun</Turret_PivotGun.label>
+  <!-- EN: A manned cannon which might take some time to reload. -->
+  <Turret_PivotGun.description>A manned cannon which might take some time to reload.</Turret_PivotGun.description>
+  <!-- EN: Cannon -->
+  <Weapon_Cannon.label>Cannon</Weapon_Cannon.label>
+  <!-- EN: A manned cannon which might take some time to reload. -->
+  <Weapon_Cannon.description>A manned cannon which might take some time to reload.</Weapon_Cannon.description>
+  <!-- EN: Cannon -->
+  <Weapon_Cannon.verbs.Verb_Shoot.label>Cannon</Weapon_Cannon.verbs.Verb_Shoot.label>
+  <!-- EN: Coehorn -->
+  <Weapon_Coehorn.label>Coehorn</Weapon_Coehorn.label>
+  <!-- EN: A manned cannon which might take some time to reload. -->
+  <Weapon_Coehorn.description>A manned cannon which might take some time to reload.</Weapon_Coehorn.description>
+  <!-- EN: Coehorn -->
+  <Weapon_Coehorn.verbs.Verb_Shoot.label>Coehorn</Weapon_Coehorn.verbs.Verb_Shoot.label>
+  <!-- EN: Mortar -->
+  <Weapon_Early_Mortar.label>Mortar</Weapon_Early_Mortar.label>
+  <!-- EN: A manned cannon which might take some time to reload. -->
+  <Weapon_Early_Mortar.description>A manned cannon which might take some time to reload.</Weapon_Early_Mortar.description>
+  <!-- EN: Mortar -->
+  <Weapon_Early_Mortar.verbs.Verb_Shoot.label>Mortar</Weapon_Early_Mortar.verbs.Verb_Shoot.label>
+  <!-- EN: Mortar -->
+  <Weapon_Forted_Mortar.label>Mortar</Weapon_Forted_Mortar.label>
+  <!-- EN: A manned cannon which might take some time to reload. -->
+  <Weapon_Forted_Mortar.description>A manned cannon which might take some time to reload.</Weapon_Forted_Mortar.description>
+  <!-- EN: Mortar -->
+  <Weapon_Forted_Mortar.verbs.Verb_Shoot.label>Mortar</Weapon_Forted_Mortar.verbs.Verb_Shoot.label>
+  <!-- EN: Cannon -->
+  <Weapon_FortedCannon.label>Cannon</Weapon_FortedCannon.label>
+  <!-- EN: A manned cannon which might take some time to reload. -->
+  <Weapon_FortedCannon.description>A manned cannon which might take some time to reload.</Weapon_FortedCannon.description>
+  <!-- EN: Cannon -->
+  <Weapon_FortedCannon.verbs.Verb_Shoot.label>Cannon</Weapon_FortedCannon.verbs.Verb_Shoot.label>
+  <!-- EN: PivotGun -->
+  <Weapon_PivotGun.label>PivotGun</Weapon_PivotGun.label>
+  <!-- EN: A manned cannon which might take some time to reload. -->
+  <Weapon_PivotGun.description>A manned cannon which might take some time to reload.</Weapon_PivotGun.description>
+  <!-- EN: PivotGun -->
+  <Weapon_PivotGun.verbs.Verb_Shoot.label>PivotGun</Weapon_PivotGun.verbs.Verb_Shoot.label>
+  <!-- EN: SwivelGun -->
+  <Weapon_SwivelGun.label>SwivelGun</Weapon_SwivelGun.label>
+  <!-- EN: An end-loaded Cannon which have a better fire rate. -->
+  <Weapon_SwivelGun.description>An end-loaded Cannon which have a better fire rate.</Weapon_SwivelGun.description>
+  <!-- EN: SwivelGun -->
+  <Weapon_SwivelGun.verbs.Verb_Shoot.label>SwivelGun</Weapon_SwivelGun.verbs.Verb_Shoot.label>
+</LanguageData>

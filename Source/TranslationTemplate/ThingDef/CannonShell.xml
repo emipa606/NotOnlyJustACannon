@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: CannonBall -->
+  <Bullet_CannonBall_Explosiveshot.label>CannonBall</Bullet_CannonBall_Explosiveshot.label>
+  <!-- EN: CannonBall -->
+  <Bullet_CannonBall_Incendiary.label>CannonBall</Bullet_CannonBall_Incendiary.label>
+  <!-- EN: CannonBall -->
+  <Bullet_CannonBall_Solidshot.label>CannonBall</Bullet_CannonBall_Solidshot.label>
+  <!-- EN: GunStone -->
+  <Bullet_GunStone.label>GunStone</Bullet_GunStone.label>
+  <!-- EN: Gunstone -->
+  <Bullet_Gunstone_Small.label>Gunstone</Bullet_Gunstone_Small.label>
+  <!-- EN: Mortar Round -->
+  <Bullet_MortarShell_Explosiveshot.label>Mortar Round</Bullet_MortarShell_Explosiveshot.label>
+  <!-- EN: Mortar Round -->
+  <Bullet_MortarShell_Incendiary.label>Mortar Round</Bullet_MortarShell_Incendiary.label>
+  <!-- EN: Mortar Round -->
+  <Bullet_MortarShell_Solidshot.label>Mortar Round</Bullet_MortarShell_Solidshot.label>
+  <!-- EN: Cannon Explosive Round -->
+  <CannonBall_Explosiveshot.label>Cannon Explosive Round</CannonBall_Explosiveshot.label>
+  <!-- EN: An Explosive Round -->
+  <CannonBall_Explosiveshot.description>An Explosive Round</CannonBall_Explosiveshot.description>
+  <!-- EN: Cannon Incendiary Round -->
+  <CannonBall_Incendiary.label>Cannon Incendiary Round</CannonBall_Incendiary.label>
+  <!-- EN: Cannon Round with Fuek -->
+  <CannonBall_Incendiary.description>Cannon Round with Fuek</CannonBall_Incendiary.description>
+  <!-- EN: Cannon Solid Round -->
+  <CannonBall_Solidshot.label>Cannon Solid Round</CannonBall_Solidshot.label>
+  <!-- EN: A solid Metal Round -->
+  <CannonBall_Solidshot.description>A solid Metal Round</CannonBall_Solidshot.description>
+  <!-- EN: Chamber Explosive Round -->
+  <Chamber_Explosiveshot.label>Chamber Explosive Round</Chamber_Explosiveshot.label>
+  <!-- EN: An Explosive Chamber Round -->
+  <Chamber_Explosiveshot.description>An Explosive Chamber Round</Chamber_Explosiveshot.description>
+  <!-- EN: Chamber Incendiary Round -->
+  <Chamber_Incendiary.label>Chamber Incendiary Round</Chamber_Incendiary.label>
+  <!-- EN: Cannon Round with Fuel -->
+  <Chamber_Incendiary.description>Cannon Round with Fuel</Chamber_Incendiary.description>
+  <!-- EN: Chamber Solid Round -->
+  <Chamber_Solidshot.label>Chamber Solid Round</Chamber_Solidshot.label>
+  <!-- EN: A solid metal round loaded in a mug-shaped device -->
+  <Chamber_Solidshot.description>A solid metal round loaded in a mug-shaped device</Chamber_Solidshot.description>
+  <!-- EN: Heavy Gunstone -->
+  <GunStone.label>Heavy Gunstone</GunStone.label>
+  <!-- EN: A round shot made from stone -->
+  <GunStone.description>A round shot made from stone</GunStone.description>
+  <!-- EN: Mortar Explosive Round -->
+  <MortarShell_Explosiveshot.label>Mortar Explosive Round</MortarShell_Explosiveshot.label>
+  <!-- EN: An Explosive Round -->
+  <MortarShell_Explosiveshot.description>An Explosive Round</MortarShell_Explosiveshot.description>
+  <!-- EN: Mortar Incendiary Round -->
+  <MortarShell_Incendiary.label>Mortar Incendiary Round</MortarShell_Incendiary.label>
+  <!-- EN: Mortar Round with Fuel -->
+  <MortarShell_Incendiary.description>Mortar Round with Fuel</MortarShell_Incendiary.description>
+  <!-- EN: Mortar Solid Round -->
+  <MortarShell_Solidshot.label>Mortar Solid Round</MortarShell_Solidshot.label>
+  <!-- EN: A solid Metal Round -->
+  <MortarShell_Solidshot.description>A solid Metal Round</MortarShell_Solidshot.description>
+  <!-- EN: Gunstone -->
+  <SGunStone.label>Gunstone</SGunStone.label>
+  <!-- EN: A round shot made from stone -->
+  <SGunStone.description>A round shot made from stone</SGunStone.description>
+</LanguageData>

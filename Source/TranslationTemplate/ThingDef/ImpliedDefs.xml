@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Cannon (blueprint) -->
+  <Blueprint_Install_Turret_Cannon.label>Cannon (blueprint)</Blueprint_Install_Turret_Cannon.label>
+  <!-- EN: Cannon (blueprint) -->
+  <Blueprint_Turret_Cannon.label>Cannon (blueprint)</Blueprint_Turret_Cannon.label>
+  <!-- EN: Cannon (building) -->
+  <Frame_Turret_Cannon.label>Cannon (building)</Frame_Turret_Cannon.label>
+  <!-- EN: A manned cannon which might take some time to reload. -->
+  <Frame_Turret_Cannon.description>A manned cannon which might take some time to reload.</Frame_Turret_Cannon.description>
+</LanguageData>
