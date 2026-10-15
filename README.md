@@ -44,4 +44,4 @@ All of them with Features capability patch for vanilla Weapon extend and Vanilla
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/NotOnlyJustACannon?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2622115784) | tags: fortifications, weapon expansion
+[![Image](https://img.shields.io/github/v/release/emipa606/NotOnlyJustACannon?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2622115784) | fortifications, weapon expansion
